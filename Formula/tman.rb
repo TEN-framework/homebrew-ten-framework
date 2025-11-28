@@ -52,4 +52,3 @@ class Tman < Formula
     assert_match version.to_s, shell_output("#{bin}/tman --version")
   end
 end
-
