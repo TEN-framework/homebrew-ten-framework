@@ -30,8 +30,9 @@ tman --version
 TEN Framework package manager and development tool.
 
 **Features:**
+
 - 📦 Package management for TEN Framework projects
-- 🚀 Project scaffolding and initialization  
+- 🚀 Project scaffolding and initialization
 - 🔗 Dependency resolution
 - 🛠️ Build and deployment tools
 
@@ -95,4 +96,3 @@ This tap is part of the TEN Framework project, licensed under the Apache License
 <div align="center">
   <strong>Built with ❤️ by the TEN Framework Team</strong>
 </div>
-
