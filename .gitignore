@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporary files
+*.tmp
+
+# Homebrew specific
+.brew_home/
+
