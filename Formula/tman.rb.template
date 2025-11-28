@@ -9,20 +9,20 @@ class Tman < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/TEN-framework/ten-framework/releases/download/__VERSION__/tman-mac-release-x64.zip"
+      url "https://github.com/TEN-framework/ten-framework/releases/download/#{version}/tman-mac-release-x64.zip"
       sha256 "__MAC_X64_SHA256__"
     elsif Hardware::CPU.arm?
-      url "https://github.com/TEN-framework/ten-framework/releases/download/__VERSION__/tman-mac-release-arm64.zip"
+      url "https://github.com/TEN-framework/ten-framework/releases/download/#{version}/tman-mac-release-arm64.zip"
       sha256 "__MAC_ARM64_SHA256__"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/TEN-framework/ten-framework/releases/download/__VERSION__/tman-linux-release-x64.zip"
+      url "https://github.com/TEN-framework/ten-framework/releases/download/#{version}/tman-linux-release-x64.zip"
       sha256 "__LINUX_X64_SHA256__"
     elsif Hardware::CPU.arm?
-      url "https://github.com/TEN-framework/ten-framework/releases/download/__VERSION__/tman-linux-release-arm64.zip"
+      url "https://github.com/TEN-framework/ten-framework/releases/download/#{version}/tman-linux-release-arm64.zip"
       sha256 "__LINUX_ARM64_SHA256__"
     end
   end
