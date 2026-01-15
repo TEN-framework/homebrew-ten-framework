@@ -4,26 +4,26 @@
 class Tman < Formula
   desc "TEN Framework package manager and development tool"
   homepage "https://www.theten.ai/"
-  version "0.11.50"
+  version "0.11.51"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/TEN-framework/ten-framework/releases/download/#{version}/tman-mac-release-x64.zip"
-      sha256 "7d0886854cf0985754ba9cae621aa0e4bc4e4e98435085d1ec4776dd9db98ea5"
+      sha256 "a30d36a6ee6606db7f502ee2ca18209bd34d5fa0987e9a64461168c5ec60f0ca"
     elsif Hardware::CPU.arm?
       url "https://github.com/TEN-framework/ten-framework/releases/download/#{version}/tman-mac-release-arm64.zip"
-      sha256 "aa32645f132c10d9a20fc4d9493abd5ad0dcf707f04a611abb6cdd79dc56d1aa"
+      sha256 "7fc93ba7455bad42632ace5433b4a10eacdb0e43e71c7d5fbc292f7d3973647e"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/TEN-framework/ten-framework/releases/download/#{version}/tman-linux-release-x64.zip"
-      sha256 "8ee6aafbe043eac73068478bd86578b663743f137d1793fe62f0013a3187de38"
+      sha256 "3dae90929a2eab85c2ca24605ab830dbd3f9ab4e2ad7a0f2c447a0854c206060"
     elsif Hardware::CPU.arm?
       url "https://github.com/TEN-framework/ten-framework/releases/download/#{version}/tman-linux-release-arm64.zip"
-      sha256 "d61e7e8e56e8f6715d59860bd100c6aac17d6a391713f625345109cbd10487af"
+      sha256 "7fdd1e2f548f0c8636a0ea89fa2549f3754ba4fa25c076c1ce72951bd0bb3dc7"
     end
   end
 
